@@ -1,0 +1,18 @@
+.pClass{
+    background-color: rgb(255, 127, 127);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.pClass.Cooler{
+    font-size: 24px;
+}
+
+#divID{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+#divIDTwo{
+
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
