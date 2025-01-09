@@ -1,5 +1,11 @@
+/* Notes: I did way too many flex boxes within this css for my solution. 
+  Did wrap the items into their own div like solution
+  use gap to add gap for items
+  text-align: center will wrap if width is samll enough
+*/
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +16,20 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.contain{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.insideContain{
+  max-width: 200px;
+}
+
+
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +43,5 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
