@@ -15,11 +15,26 @@ body {
   justify-content: center;
 }
 
+/*
+  I did not thing of gap but used margin instead... 
+*/
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -33,6 +48,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex-shrink: 0;
+ 
 }
 
 .close-button {
@@ -66,4 +84,11 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*
+  Did not get to this solution
+*/
+.text{
+  margin-bottom: 16px;
 }
